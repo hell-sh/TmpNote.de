@@ -1,0 +1,16 @@
+/* Copyright (c) 2018, Hellsh Ltd. */
+
+#tmpnote-container
+{
+	padding: 20px;
+	padding-bottom: none;
+	height: 100%;
+}
+
+#tmpnote-card
+{
+	position: absolute;
+	width: calc(100% - 40px);
+	min-height: 300px;
+	margin-bottom: 20px;
+}
