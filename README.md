@@ -25,3 +25,6 @@ A free and open-source service for end-to-end encrypted notes and code snippets.
         `encrypted` varchar(8192) NOT NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
     ALTER TABLE `tmpnotes` ADD PRIMARY KEY (`id`);
+    
+## Crontab Configuration
+    * * * * * php /path/to/tmpnote/src/minutely.php
