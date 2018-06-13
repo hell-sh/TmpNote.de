@@ -27,4 +27,5 @@ A free and open-source service for end-to-end encrypted notes and code snippets.
     ALTER TABLE `tmpnotes` ADD PRIMARY KEY (`id`);
     
 ## Crontab Configuration
-    * * * * * php /path/to/tmpnote/src/minutely.php
+
+    * * * * * php /var/www/tmpnote/src/minutely.php
