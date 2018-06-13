@@ -1,6 +1,7 @@
 <?php
 http_response_code(200);
-$title="An ephemeral, end-to-end encrypted note";
+$title="A temporary, end-to-end encrypted note";
+$description="This is an ephemeral, end-to-end encrypted note, which you can only read with the key, given the time hasn't expired yet.";
 require"src/header.php";
 ?>
 <div id="tmpnote-container">

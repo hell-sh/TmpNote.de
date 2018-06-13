@@ -1,5 +1,6 @@
 <?php
 $title="Create free, end-to-end encrypted notes";
+$description="TmpNote.de is a free and open-source service for end-to-end encrypted notes and code snippets.";
 require"src/header.php";
 ?>
 <div id="tmpnote-container">

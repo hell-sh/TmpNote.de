@@ -6,17 +6,13 @@ if($_SERVER["REQUEST_METHOD"]!="GET")
 	header("Allow: OPTIONS, GET");
 	exit;
 }
-if(empty($title))
+if(empty($title) || empty($description))
 {
-	die("No title has been specified.");
+	die("Missing metadata.");
 }
 if(empty($icon))
 {
 	$icon = "https://tmpnote.de/assets/img/icon.png";
-}
-if(empty($description))
-{
-	$description = "TmpNote.de is a free and open-source service for end-to-end encrypted notes and code snippets.";
 }
 ?>
 <!DOCTYPE html>
