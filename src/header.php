@@ -16,7 +16,7 @@ if(empty($icon))
 }
 ?>
 <!DOCTYPE html>
-<html lang="<?=((in_array($subdomain,$supported_languages))?$subdomain:'en'); ?>">
+<html>
 <head>
 	<title><?=$title; ?> | TmpNote.de</title>
 	<link rel="icon" type="image/png" href="<?=$icon; ?>">
