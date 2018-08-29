@@ -28,4 +28,4 @@ A free and open-source service for end-to-end encrypted notes and code snippets.
 
 ## Crontab Configuration
 
-    * * * * * php /var/www/tmpnote/src/minutely.php
+    * * * * * php /var/www/tmpnote.de/src/minutely.php
