@@ -1,4 +1,5 @@
-<?// Copyright (c) 2018, Hellsh Ltd.
+<?php
+// Copyright (c) 2018, Hellsh
 
 function str_rand($length = 11)
 {
@@ -15,7 +16,7 @@ function str_rand($length = 11)
 	return $str;
 }
 
-// https://github.com/hellshltd/PHP-DBAPI
+// https://github.com/hell-sh/PHP-DBAPI
 class DBAPI
 {
 	private $connected = false;
