@@ -22,9 +22,11 @@ A free and open-source service for end-to-end encrypted notes and code snippets.
         `type` int(1) NOT NULL,
         `formatting` varchar(20) NOT NULL,
         `expires` int(11) NOT NULL,
-        `encrypted` varchar(8192) NOT NULL
+        `encrypted` text NOT NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
     ALTER TABLE `tmpnotes` ADD PRIMARY KEY (`id`);
+
+within a databased called `other`.
 
 ## Crontab Configuration
 
