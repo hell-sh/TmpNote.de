@@ -7,7 +7,7 @@ require"src/header.php";
 	<div id="tmpnote-header">
 		<h1>TmpNote<small>.de</small></h1>
 		<p>A free and open-source service for end-to-end encrypted notes and code snippets.</p>
-		<p>Copyright (c) 2018, <a href="https://hellsh.com" target="_blank">Hellsh</a> &middot; <a href="https://hellsh.com/privacy" target="_blank">Privacy Policy</a> &middot; <a href="#modal-open-source" uk-toggle>Open Source</a></p>
+		<p>Copyright (c) 2018-19 <a href="https://hell.sh/" target="_blank">Hell.sh</a> &middot; <a href="https://hell.sh/privacy" target="_blank">Privacy Policy</a> &middot; <a href="#modal-open-source" uk-toggle>Open Source</a></p>
 	</div>
 	<div id="tmpnote-card" class="uk-card uk-card-default">
 		<div id="tmpnote-created" class="uk-card-body uk-hidden">

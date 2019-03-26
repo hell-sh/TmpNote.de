@@ -28,11 +28,11 @@ if(empty($icon))
 	<meta name="title" content="<?=$title; ?> | TmpNote.de">
 	<meta name="description" content="<?=$description; ?>">
 	<meta name="keywords" content="Notes, Snippets, Code Snippets, End-to-end encrypted, Secure, TmpNote">
-	<meta name="copyright" content="Copyright (c) 2018, Hellsh Ltd.">
+	<meta name="copyright" content="Copyright (c) 2018-19 Hell.sh">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="<?=$title; ?> | TmpNote.de">
-	<meta name="twitter:creator" content="@hellshltd">
+	<meta name="twitter:creator" content="@helldotsh">
 	<meta name="twitter:description" content="<?=$description; ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="TmpNote.de">
